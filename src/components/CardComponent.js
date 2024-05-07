@@ -88,7 +88,6 @@ const CardComponent = () => {
                     onClick={() => toggleActive(index)}
                     width={24}
                     height={24}
-                    style={{ color: "red" }}
                   />
                 </li>{" "}
                 |
@@ -163,8 +162,7 @@ const CardComponent = () => {
                <button className="btn2" type="button" onClick={handleSave}>
                  Ok
                </button> 
-          </div>
-          
+          </div>  
       </Modal>
     </div>
   );
